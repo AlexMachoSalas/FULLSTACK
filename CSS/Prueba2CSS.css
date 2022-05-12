@@ -1,0 +1,17 @@
+p{
+    color: green;
+    text-align: justify;
+}
+h1{
+    color: aqua;
+    text-align: center;
+}
+a{
+    color: rgb(255, 0, 0);
+}
+#c1{
+    color: rgb(43, 39, 43);
+}
+.c2{
+    background-color: fuchsia;
+}
