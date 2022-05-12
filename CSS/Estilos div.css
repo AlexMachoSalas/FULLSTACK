@@ -1,6 +1,12 @@
 #green{
     color: green;
+    background-color: brown;
 }
 div{
     color: red;
+    background-color: aqua;
+}
+.c1{
+    color: rgb(217, 255, 0);
+    background-color: darkviolet;
 }
