@@ -4,3 +4,14 @@
 body{
     margin: 0;
 }
+.main-header{
+    background-color: #2ddf5c;
+    padding: 8px 16px;
+    width: 100%;
+}
+.main-nav_item{
+    display: inline-block
+}
+.main-header > div{
+    display: inline-block
+}
