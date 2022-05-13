@@ -15,3 +15,6 @@ body{
 .main-header > div{
     display: inline-block
 }
+.main-nav{
+    display: inline-block;
+}
