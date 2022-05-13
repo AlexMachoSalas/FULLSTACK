@@ -1,27 +1,6 @@
-div{
-    width: 320px;
-    padding: 10px;
-    border: 5px solid blue;
-    margin: 5px;
-    background-color: brown;
-    border-radius: 25px;
-}
-ul{
-    width: 100px;
-    padding: 20px;
-    border: 10px solid green;
-    margin: 10px;
-    background-color: aqua;
-    border-radius: 5px;
-}
-ol{
-    width: 70px;
-    padding: 50px;
-    border: 5px solid rgb(200, 221, 8);
-    margin: 15px;
-    background-color: rgb(255, 0, 179);
-    border-radius: 15px;
+*{
+    box-sizing: border-box;
 }
 body{
-    background-color: red;
+    margin: 0;
 }
