@@ -17,4 +17,11 @@ body{
 }
 .main-nav{
     display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+.main-nav_items{
+    margin: 0;
+    padding: 0;
+    list-style:none;
 }
