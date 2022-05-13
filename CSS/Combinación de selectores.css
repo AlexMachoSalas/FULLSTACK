@@ -1,3 +1,12 @@
 h1 + p{
     color: red;
 }
+h2 ~ p{
+    color: green;
+}
+div > p{
+    background-color: chocolate;
+}
+div article{
+    background-color: aqua;
+}

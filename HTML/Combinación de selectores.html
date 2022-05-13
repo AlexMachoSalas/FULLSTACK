@@ -10,16 +10,39 @@
 <body>
     <!-- Combinación de selectores
     - Selectores adjacentes "elemento + elemento"
-    El primer elemento es el que realiza la referencia y el segundo elemento es el que adopta el estilo.
-    - Selectores adjacentes general ""
-    - Selectores de descendencia ""
-    - Selector de descendencia general ""
--->
+    El primer elemento es el que realiza la referencia y el segundo elemento es el que adopta el estilo, solo el primer adjacente, si va seguido.
+    - Selectores adjacentes general "elemento ~ elemento"
+    El primer elemento es el que realiza la referencia y el segundo elemento es el que adopta el estilo, todos los elementos adjacentes, aunque no esten seguidos.
+    - Selectores de descendencia "elemento > elemento"
+    El primer elemento es el que realiza la referencia y el segundo elemento es el que adopta el estilo, todos los elementos internos al primer elemento, si el segundo elemento esta otra vez dentro de otro nuevo elemento no se aplica.
+    - Selector de descendencia general "elemento elemento"
+    El primer elemento es el que realiza la referencia y el segundo elemento es el que adopta el estilo, todos los elementos internos al primer elemento, aunque este dentro de un segundo elemento si se aplica,
+    -->
     <div>
     <!-- Selector adjacente -->
         <h1>Titulo</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, ut omnis neque consequuntur laudantium reiciendis eius sunt quos fuga obcaecati voluptate blanditiis dolorum! Eius, veniam reiciendis! Dolorem voluptatem veritatis optio.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam accusantium, perspiciatis voluptate exercitationem minima facilis libero porro recusandae vero, voluptatum ullam eligendi aliquid omnis! Molestias eius nulla consequuntur beatae repellendus?</p>
+    </div>
+    <div>
+    <!-- Selector adjacente general -->
+        <h2>Titulo</h2>
+        <h6>Titulo</h6>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quo, accusantium dolorum autem ducimus adipisci voluptatem illo cumque incidunt quae enim aperiam optio voluptatum, nulla laborum commodi reprehenderit minus esse?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, fuga hic. Temporibus nostrum libero laboriosam nemo blanditiis nisi ullam eveniet illum! Quod mollitia dignissimos tenetur magni provident corporis architecto ad?</p>
+    </div>
+    <div>
+        <!-- Selector descendente -->
+        <h3>Titulo0</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quisquam minus ipsum ipsa, in laudantium ipsam odit illo impedit, dolores, esse deleniti tenetur exercitationem maxime soluta! Blanditiis, fugiat explicabo! Unde?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus cupiditate, amet fugit vel rem iste veniam illum autem ad repellendus excepturi quod quibusdam sint quas voluptatum at nam possimus error?</p>
+        <!-- Selectos descendente general -->
+        <article>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque praesentium minima deserunt quam est corporis itaque animi illum sed? Officia suscipit soluta, quibusdam perspiciatis voluptatibus dolores odio minus autem aut.</p>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iure architecto assumenda rem nesciunt deserunt placeat beatae repellat exercitationem quo facilis dolor nam incidunt, fugit maiores nobis cum corporis eius!</p>
+            </article>
+        </article>
     </div>
 </body>
 </html>
