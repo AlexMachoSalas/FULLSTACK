@@ -1,0 +1,48 @@
+.wordspacing1{
+    word-spacing: 10px;
+}
+.wordspacing2{
+    word-spacing: 2px;
+}
+.sombra{
+    text-shadow: 3px 2px red;
+}
+.serif{
+    font-family: "TimesNewRoman",Times,serif;
+}
+.sansserif{
+    font-family: Arial,Helvetica, sans-serif;
+}
+.italic{
+    font-style: italic;
+}
+.oblique{
+    font-style: oblique;
+}
+.letra1{
+    font-size:40px;
+}
+.letra2{
+    font-size:30px;
+}
+.letra3{
+    font-size:2px;
+}
+.negritanormal{
+    font-weight: normal;
+}
+.negrital{
+    font-weight: lighter;
+}
+.negritab{
+    font-weight: bold;
+}
+.negrita900{
+    font-weight: 900;
+}
+.mayusculasnormal{
+    font-variant:normal;
+}
+.mayusculaspequeñas{
+    font-variant:small-caps;
+}
