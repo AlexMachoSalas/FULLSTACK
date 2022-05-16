@@ -5,7 +5,7 @@
     word-spacing: 2px;
 }
 .sombra{
-    text-shadow: 3px 2px red;
+    text-shadow: 15px 10px 2px red;
 }
 .serif{
     font-family: "TimesNewRoman",Times,serif;
