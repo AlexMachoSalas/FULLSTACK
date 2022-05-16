@@ -46,3 +46,6 @@
 .mayusculaspequeñas{
     font-variant:small-caps;
 }
+p{
+    font-family: 'Roboto', sans-serif;
+}
