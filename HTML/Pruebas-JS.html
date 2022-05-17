@@ -9,6 +9,8 @@
     <script>
         alert("Hello world!, texto de alerta");
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
 </head>
 <body>
     <h1>Pruebas JavaScript (Frontend)</h1>
@@ -26,6 +28,12 @@
         function Inicial() {
             document.getElementById("demo").innerHTML = "Primer texto";
         }
+    </script>
+    <br>
+    <script>
+        $(document).ready(function(){
+        console.log('Librería jQuery cargada');
+        });
     </script>
 </body>
 </html>
