@@ -12,14 +12,21 @@
 </head>
 <body>
     <h1>Pruebas JavaScript (Frontend)</h1>
-    <p id="demo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam qui delectus architecto praesentium fugit nulla mollitia! Commodi officia rem voluptates et aliquid iusto eaque provident voluptate earum? Asperiores, exercitationem placeat?</p>
-    <button type="submit" onclick="myFunction()">Clica para cambiar</button>
+    <p id="demo">Primer texto</p>
+    <button type="submit" onclick="Cambia()">Clica para cambiar</button>
+    <button type="submit" onclick="Inicial()">Texto Inicial</button>
+    <br>
     <script>
         document.write("Hello world!, texto en el documento");
     </script>
     <script>
-        function myFunction() {
-            document.getElementById("demo").innerHTML = "Párrafo cambiado";
+        function Cambia() {
+            document.getElementById("demo").innerHTML = "Segundo texto";
+        }
+    </script>
+    <script>
+        function Inicial() {
+            document.getElementById("demo").innerHTML = "Primer texto";
         }
     </script>
 </body>
