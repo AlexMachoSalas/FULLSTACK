@@ -22,5 +22,44 @@
         const nombre = prompt("Escriba su nombre", "Escriba aquí");
         console.log(nombre);
 </script>
+<script>
+    const conf = confirm("Sí o no");
+    console.log(conf);
+    // 1000000000000000000
+    console.log(9999999999999999999);
+    // 0.6
+    console.log(0.5+0.1);
+    // 0.30000000000000004
+    console.log(0.1+0.2);
+    // 0.3
+    console.log(Math.round((0.1+0.2)*100)/100);
+    console.log(parseFloat((0.1+0.2).toFixed(1)));
+    // -Infinity
+    console.log(Math.max());
+    // Infinity
+    console.log(Math.min());
+    // ""
+    console.log([]+[]);
+    // "aa"
+    console.log(["a"]+["a"]);
+    // "[object Object]"
+    console.log([]+{});
+    // 0
+    console.log({}+[]);
+    // true
+    console.log(true+true+true===3);
+    // true
+    console.log(true==1);
+    // false
+    console.log(true===1);
+    // 9
+    console.log((!+[]+[]+![]).length);
+    // "91"
+    console.log(9+"1");
+    // 90
+    console.log(91-"1");
+    // true
+    console.log([] == 0);
+    </script>
 </body>
 </html>
