@@ -16,3 +16,6 @@ x = 5;
 x = 'John';
 // Infinity
 const variable1 = 1/0;
+//ejercicio p 155
+const array1 = ["Lunes", "Martes" ,"Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"]
+console.log(array1[2]);
