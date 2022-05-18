@@ -19,3 +19,5 @@ const variable1 = 1/0;
 //ejercicio p 155
 const Semana = ["Lunes", "Martes" ,"Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"]
 console.log(Semana[2]);
+Semana.length = 4
+console.log(Semana)
