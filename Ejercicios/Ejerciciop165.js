@@ -9,3 +9,5 @@ const d = +'2';
 console.log(d);
 const e = 4;
 console.log(e.toString());
+const f = false;
+console.log(String(f));
