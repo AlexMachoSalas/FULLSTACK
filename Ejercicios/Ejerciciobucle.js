@@ -11,3 +11,11 @@ const len = array.length;
     for (let i = 0; i < 11; i++) {
         document.write(nombre + "<br>");
     }
+    let numero = prompt("Escriba un numero entero positivo", "Escriba aquí");
+    for (let i = numero; i >= 0; i--) {
+        if (i==0) {
+            document.write(i)
+        } else {
+            document.write(i + ", ");
+        } 
+    }
