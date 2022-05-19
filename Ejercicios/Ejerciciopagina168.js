@@ -75,3 +75,5 @@ if ((num3>num1)&&(num3>num2)) {
     document.write("num3 es el mayor")
 }
 document.write("<br><br>")
+document.write("Ejercicio 6<br><br>")
+document.write("El resultado es a<br><br>")
