@@ -12,8 +12,15 @@ for (let i = 0; i < colores.length; i++) {
     console.log(colores[i]);
     
 }
-let colores1 = []
-for (let color of colores) {
-    colores.push (color)
-}
 // ejercicio 4
+let elementos1 = ["mar","rio","nueves","sol","dia"]
+let elementos2 = ["oceano","lago","nueves","soleado","dia"]
+let contador=0;
+for (let element of elementos1) {
+    for (let element1 of elementos2) {
+        if (element1==element) {
+            contador++
+        }
+    }
+}
+console.log(contador)
