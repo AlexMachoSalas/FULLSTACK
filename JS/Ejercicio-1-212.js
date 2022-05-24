@@ -24,3 +24,8 @@ for (let element of elementos1) {
     }
 }
 console.log(contador)
+// ejercicio 5
+let tierra = ["mar","rio","nueves","sol","dia"];
+let tierra2 = tierra.slice(1,4);
+console.log(tierra2)
+console.log(tierra)
