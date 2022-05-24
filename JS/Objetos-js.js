@@ -23,8 +23,10 @@ const persona2 = {
     datos: {
     dirección: 'Sevilla'
     }
-    };
-    // Sevilla
-    console.log(persona2.datos.dirección);
-    // undefined
-    console.log(persona2.datos.otrodato);
+};
+// Sevilla
+console.log(persona2.datos.dirección);
+// undefined
+console.log(persona2.datos.otrodato);
+// dirección: "Sevilla"
+console.log(persona2.datos);
