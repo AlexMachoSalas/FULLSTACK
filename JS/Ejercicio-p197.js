@@ -1,12 +1,13 @@
 // Ejercicio 1
-const persona1 = {
-    nombre: 'David Rayy',
-    sclass: 'VI',
-    rollno : 12
-};
-console.log(persona1)
-const persona2 = {};
-persona2.nombre = 'David Rayy';
-persona2.sclass = 'VI';
-persona2.rollno = 12;
-console.log(persona2)
+const banco1 = {
+    gestor: "10",
+    cliente: "50",
+    mensaje(){
+        console.log("Hola cliente " + this.cliente)
+    },
+    trasferencia(){
+        console.log("Su tranferencia ha sido realizada por el gestor " + this.gestor)
+    }
+}
+banco1.mensaje()
+banco1.trasferencia()
