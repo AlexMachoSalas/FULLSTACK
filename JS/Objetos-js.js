@@ -30,3 +30,19 @@ console.log(persona2.datos.dirección);
 console.log(persona2.datos.otrodato);
 // dirección: "Sevilla"
 console.log(persona2.datos);
+const coche1 = { marca: 'Ford', modelo: 'Focus' };
+const coche2 = { marca: 'Ford', modelo: 'Focus' };
+// devuelve false porque no comparten referencia
+console.log(coche1 == coche2);
+// devuelve false porque no comparten referencia
+console.log(coche1 === coche2);
+// devuelve true porque el valor es el mismo y son de tipo string
+console.log(coche1.modelo === coche2.modelo);
+const coche3 = coche1;
+// devuelve true porque comparten referencia
+console.log(coche1 === coche3);
+const x = {
+    peras: 3,
+    fresas: 20
+};
+delete x.fresas;
