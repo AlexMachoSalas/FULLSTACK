@@ -16,3 +16,4 @@ let colores1 = []
 for (let color of colores) {
     colores.push (color)
 }
+// ejercicio 4
