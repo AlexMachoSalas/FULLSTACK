@@ -1,23 +1,33 @@
 // Ejercicio 1
 const banco1 = {
     gestor: "10",
-    cliente: "50",
-    mensaje: "Hola cliente",
-    trasferencian: "Su tranferencia ha sido realizada"
+    cliente: "Carlos",
+    mensaje() {
+        console.log("Hola cliente " + this.cliente)
+    },
+    trasferencia() {
+        console.log("Su tranferencia ha sido realizada por el gestor " + this.gestor)
+    }
 }
 const banco2 = {
     gestor: "25",
-    cliente: "105",
-    mensaje: "Hola cliente",
+    cliente: "Carla",
+    mensaje() {
+        console.log("Hola cliente " + this.cliente)
+    },
     trasferencia() {
         console.log("Su tranferencia ha sido realizada por el gestor " + this.gestor)
     }
 }
 const banco3 = {
     gestor: "12",
-    cliente: "30",
-    mensaje: "Hola cliente",
-    trasferencia: "Su tranferencia ha sido realizada por el gestor"
+    cliente: "Esteban",
+    mensaje() {
+        console.log("Hola cliente " + this.cliente)
+    },
+    trasferencia() {
+        console.log("Su tranferencia ha sido realizada por el gestor " + this.gestor)
+    }
 }
 arraybnc1=Object.keys(banco1)
 arraybnc2=Object.keys(banco2)
@@ -26,8 +36,11 @@ console.log(arraybnc1)
 console.log(arraybnc2)
 console.log(arraybnc3)
 for (let i = 0; i < arraybnc1.length; i++) {
-    console.log(banco1[arraybnc1[i]]);
-    
+    if (typeof(banco1[arraybnc1[i]])=="function") {
+        banco1[arraybnc1[i]]();
+    } else {
+        console.log(banco1[arraybnc1[i]]);
+    }
 }
 for (let i = 0; i < arraybnc2.length; i++) {
     if (typeof(banco2[arraybnc2[i]])=="function") {
@@ -37,7 +50,9 @@ for (let i = 0; i < arraybnc2.length; i++) {
     }
 }
 for (let i = 0; i < arraybnc3.length; i++) {
-    console.log(banco3[arraybnc3[i]]);
-    
+    if (typeof(banco3[arraybnc3[i]])=="function") {
+        banco3[arraybnc3[i]]();
+    } else {
+        console.log(banco3[arraybnc3[i]]);
+    }
 }
-console.log(typeof(banco2[arraybnc2[3]]))
