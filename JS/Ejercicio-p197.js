@@ -9,7 +9,9 @@ const banco2 = {
     gestor: "25",
     cliente: "105",
     mensaje: "Hola cliente",
-    trasferencia: "Su tranferencia ha sido realizada por el gestor"
+    trasferencia() {
+        console.log("Su tranferencia ha sido realizada por el gestor " + this.gestor)
+    }
 }
 const banco3 = {
     gestor: "12",
@@ -28,10 +30,14 @@ for (let i = 0; i < arraybnc1.length; i++) {
     
 }
 for (let i = 0; i < arraybnc2.length; i++) {
-    console.log(banco2[arraybnc2[i]]);
-    
+    if (typeof(banco2[arraybnc2[i]])=="function") {
+        banco2[arraybnc2[i]];
+    } else {
+        console.log(banco2[arraybnc2[i]]);
+    }
 }
 for (let i = 0; i < arraybnc3.length; i++) {
     console.log(banco3[arraybnc3[i]]);
     
 }
+console.log(typeof(banco2[arraybnc2[3]]))
