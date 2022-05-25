@@ -2,36 +2,36 @@
 const banco1 = {
     gestor: "10",
     cliente: "50",
-    mensaje(){
-        console.log("Hola cliente " + this.cliente)
-    },
-    trasferencia(){
-        console.log("Su tranferencia ha sido realizada por el gestor " + this.gestor)
-    }
+    mensaje: "Hola cliente",
+    trasferencian: "Su tranferencia ha sido realizada"
 }
 const banco2 = {
     gestor: "25",
     cliente: "105",
-    mensaje(){
-        console.log("Hola cliente " + this.cliente)
-    },
-    trasferencia(){
-        console.log("Su tranferencia ha sido realizada por el gestor " + this.gestor)
-    }
+    mensaje: "Hola cliente",
+    trasferencia: "Su tranferencia ha sido realizada por el gestor"
 }
 const banco3 = {
     gestor: "12",
     cliente: "30",
-    mensaje(){
-        console.log("Hola cliente " + this.cliente)
-    },
-    trasferencia(){
-        console.log("Su tranferencia ha sido realizada por el gestor " + this.gestor)
-    }
+    mensaje: "Hola cliente",
+    trasferencia: "Su tranferencia ha sido realizada por el gestor"
 }
-banco1.mensaje()
-banco1.trasferencia()
-banco2.mensaje()
-banco2.trasferencia()
-banco3.mensaje()
-banco3.trasferencia()
+arraybnc1=Object.keys(banco1)
+arraybnc2=Object.keys(banco2)
+arraybnc3=Object.keys(banco3)
+console.log(arraybnc1)
+console.log(arraybnc2)
+console.log(arraybnc3)
+for (let i = 0; i < arraybnc1.length; i++) {
+    console.log(banco1[arraybnc1[i]]);
+    
+}
+for (let i = 0; i < arraybnc2.length; i++) {
+    console.log(banco2[arraybnc2[i]]);
+    
+}
+for (let i = 0; i < arraybnc3.length; i++) {
+    console.log(banco3[arraybnc3[i]]);
+    
+}
