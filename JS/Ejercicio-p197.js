@@ -31,7 +31,7 @@ for (let i = 0; i < arraybnc1.length; i++) {
 }
 for (let i = 0; i < arraybnc2.length; i++) {
     if (typeof(banco2[arraybnc2[i]])=="function") {
-        banco2[arraybnc2[i]];
+        banco2[arraybnc2[i]]();
     } else {
         console.log(banco2[arraybnc2[i]]);
     }
